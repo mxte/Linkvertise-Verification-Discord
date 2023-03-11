@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Verification</title>
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+        <style>
+             *{
+                margin: 0;
+                padding: 0;
+                border: 0;
+                box-sizing: border-box;
+            }
+            body {
+                background: #202020;
+            }
+            .container {
+                height: 100vh;
+                width: 100vw;
+                display: grid;
+                place-content: center;
+            }
+            #child{
+                border-radius:20px;
+                background: #252525;
+                width: 30vw;
+                height: 10vh;
+                display: grid;
+                place-content: center;
+            }
+            #child:hover{
+                background-color: #303030;
+                transition: 0.7s;
+            }
+            #child:active{
+                background-color: #606060;
+            }
+            #div_text{
+                font-family: Arial, Helvetica, sans-serif;text-align: center;
+                color: grey;
+                font-weight: bold;
+                
+            }
+            a{
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <a href="YOUR DISCORD SERVER URL">
+                <div id = "child" >
+                    <h1 id = "div_text">Join Server</h1>
+                </div>
+            </a>
+        </div>
+    </body>
+</html>
