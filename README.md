@@ -26,5 +26,5 @@ All the things needed to be changed are marked in the files. The files that are 
 
 ## Support
 
-Discord - wiz#5429
+Discord - szpl
 
